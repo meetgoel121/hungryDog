@@ -1,5 +1,5 @@
 //Create variables here
-var happyDog,dog,database,foodStock,foodS
+var happyDog,dog,database,foodStock,foodS=0
 function preload()
 {dogImg1=loadImage("images/dogImg.png")
 dogImg2=loadImage("images/dogImg1.png")
@@ -48,7 +48,7 @@ if(x<=0){
 
 
 database.ref('/').update({
-
+Food:x
 })
 
 }
